@@ -26,6 +26,14 @@ Running the docker image with docker-compose
         volumes:
           - /your-code-folder:/var/www/html
 
+Adding mail support with ssmtp
+------------------------------------
+
+If you want the support of mails with ssmtp, you can mount your ssmtp configuration files with a volume.
+
+    --volume /your-ssmtp-configuration-folder:/etc/ssmtp
+
+
 Building the base image
 -----------------------
 
